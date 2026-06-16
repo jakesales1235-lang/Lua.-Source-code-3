@@ -7,9 +7,9 @@ if not inputKey or inputKey == "" then
 end
 
 -- LINK NG DATABASE MO (Palitan mo ng iyong totoong username at repo name)
-local DATABASE_URL = "https://githubusercontent.com"
+local DATABASE_URL = ""
 -- LINK NG SCRAMBLED SCRIPT MO
-local SOURCE_URL = "https://githubusercontent.com"
+local SOURCE_URL = ""
 
 -- I-check kung active ang key sa internet
 local success, result = pcall(function() return game:HttpGet(DATABASE_URL) end)
