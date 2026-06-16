@@ -7,9 +7,9 @@ if not inputKey or inputKey == "" then
 end
 
 -- LINK NG DATABASE MO (Palitan mo ng iyong totoong username at repo name)
-local DATABASE_URL = ""
+local DATABASE_URL = "https://github.com/jakesales1235-lang/Script2.0-key-systemed/blob/main/Source2.%200"
 -- LINK NG SCRAMBLED SCRIPT MO
-local SOURCE_URL = ""
+local SOURCE_URL = "https://github.com/jakesales1235-lang/Keys/blob/main/Lua.%20Source%20%C3%97%2B1000"
 
 -- I-check kung active ang key sa internet
 local success, result = pcall(function() return game:HttpGet(DATABASE_URL) end)
